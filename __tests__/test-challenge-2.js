@@ -28,9 +28,3 @@ maybe('Challenge - 2 : my countEvenNumbers function can count even numbers in ar
     ]
     expect(countEvenNumbers(numbers)).toBe(9);
 });
-
-const countEvenNumbers = number.filter(number => {
-  return number % 2 === 0;
-});
-
-console.log(even);

@@ -28,9 +28,3 @@ maybe('Challenge - 1 : my sumNumbers function can sum an array of numbers', () =
     ];
     expect(sumOfNumbers(numbers)).toBe(75);
 });
-
-var sumOfNumbers = numbers.reduce(function(a, b){
-  return a + b;
-}, 0);
-
-console.log(sumOfNumbers);
